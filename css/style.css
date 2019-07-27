@@ -1,0 +1,283 @@
+h@import @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+body{
+	font-family: 'Noto Serif', serif;
+	margin: 0;
+}
+header{
+	background-image: url(../images/strict1.jpg);
+	min-height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-color: #44464d7d;
+	background-blend-mode: darken;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+header .row{
+	min-height: 80vh;
+	align-items: center;
+}
+
+.navbar-brand{}
+.navbar-brand img{
+	width: 150px;
+}
+.navbar{
+	    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banner{
+	text-align: center;
+}
+.banner h1{
+    font-size: 100px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.banner h1::after{
+	content: " ";
+	background: #5656d3;
+	width: 500px;
+	position: absolute;
+	height: 2px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+.banner h3{
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.banner a{
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.banner a:hover{
+	color: #6fbdeb;
+}
+
+.banner a i {
+    display: block;
+    padding-top: 200px;
+}
+
+
+
+.design-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f4f5f6;
+}
+.design{
+    text-align: center;
+}
+.design h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.design p{
+    color: grey;
+}
+
+
+
+.font-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.font{
+    text-align: center;
+}
+.font i{
+    font-size: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #6fbdeb;
+    color: white;
+}
+.font h5{
+    padding-top: 30px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.font p{
+    color: gray;
+}
+
+
+
+.gallery-section{
+	background-color: #f4f5f6;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	text-align: center;
+}
+.gallery-content{}
+.gallery-content h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.gallery-content h4{
+    color: gray;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+
+.gallery-img1{}
+.gallery-img1 img{
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+footer{
+    background-image: url(../images/contact.png);
+    background-blend-mode: darken;
+    background-color: #071041b3;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+}
+.footer-content{}
+.footer-content h2{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+.footer-content h6{
+    color: gray;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+form{
+    width: 500px;
+   
+}
+.form-group{}
+.form-group input{}
+.form-group form-check{}
+.form-group form-check input{}
+.form-group form-check label{color: white;}
+.form-group button{}
+.form-check-label{}
+.form-check-label {
+    color: white;
+}
+
+.icon-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+        background-color: #f4f5f6
+}
+.icon{}
+.icon h6{
+    color: #827676;
+}
+.icon a{
+  
+    padding-left: 5px;
+    color: #2196F3;
+    width: 30px;
+}
+.icon a i{
+   
+    font-size: 2em;
+}
+
+
+@media (max-width: 1199px){
+
+}
+
+@media (max-width: 991px){
+
+	header{
+		max-height: 60vh;
+	}
+	
+	.banner h1{
+		font-size: 70px;
+	}
+	.banner h1::after{
+		width: 350px;
+	}
+
+
+	
+}
+
+@media (max-width: 767px){
+		header{
+		max-height: 55vh;
+	}
+	
+	.banner h1{
+		font-size: 60px;
+	}
+	.banner h1::after{
+		width: 300px;
+	}
+}
+	
+
+
+@media (max-width: 575px){
+	header{
+		max-height: 45vh;
+	}
+	
+	.banner h1{
+		font-size: 50px;
+	}
+	.banner h1::after{
+		width: 200px;
+	}
+	form{
+    width: 400px;
+   
+}
+   .navbar-collapse {
+    background-color:#6fbdeb;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+    .navbar-collapse{
+        text-align: right;
+    }
+    .navbar-nav li a{
+        display: inline-block;
+    }
+}
